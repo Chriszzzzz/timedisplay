@@ -1,4 +1,4 @@
-"""timedisplay URL Configuration
+"""random_word_generator URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/
@@ -16,5 +16,5 @@ Including another URLconf
 from django.conf.urls import url, include
 
 urlpatterns = [
-               url(r'^', include('apps.display.urls'))
-               ]
+    url(r'^', include('apps.random_word.urls'))
+]

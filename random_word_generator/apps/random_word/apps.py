@@ -3,5 +3,5 @@ from __future__ import unicode_literals
 from django.apps import AppConfig
 
 
-class DisplayConfig(AppConfig):
-    name = 'display'
+class RandomWordConfig(AppConfig):
+    name = 'random_word'
